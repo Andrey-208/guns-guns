@@ -1,0 +1,71 @@
+{
+  "id": "guns-guns-and-guns",
+  "title": "Guns, Guns & Guns",
+  "esmodules": [
+    "prop.js"
+  ],
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "description": "Нам нужны стволы!",
+  "authors": [
+    {
+      "name": "Andrii_208",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Guns, Guns & Guns",
+      "sorting": "m",
+      "packs": [
+        "items",
+        "journals"
+      ],
+      "color": null,
+      "folders": []
+    }
+  ],
+  "packs": [
+    {
+      "name": "items",
+      "label": "Предметы",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journals",
+      "label": "Справка",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "laaru-dnd5-hw",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
